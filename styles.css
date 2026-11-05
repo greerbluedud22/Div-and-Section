@@ -1,0 +1,25 @@
+
+/* Section */
+.projects-section {
+    background-color: #dbeafe;
+    padding: 30px;
+    margin: 20px;
+    border: 2px solid #2563eb;
+    border-radius: 10px
+}
+
+/* Container holding the boxes */
+.projects-section {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Individual div boxes */
+.projects-box {
+    background-color: #bbf7d0;
+    padding: 30px;
+    border: 2px solid #16a34a;
+    border-radius: 8px;
+    flex: 1 1 180px;
+}
