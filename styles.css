@@ -9,7 +9,7 @@
 }
 
 /* Container holding the boxes */
-.projects-section {
+.project-container {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -22,4 +22,15 @@
     border: 2px solid #16a34a;
     border-radius: 8px;
     flex: 1 1 180px;
+}
+
+/* Headings inside each box */
+.project-box h3 {
+    color: #166534;
+    margin-top: 0;
+}
+
+/* Paragraphs inside each box */
+.project-box p {
+    color: #14532d;
 }
